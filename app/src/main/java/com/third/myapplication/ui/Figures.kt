@@ -1,4 +1,4 @@
-package com.irregulariti.myapplication.ui
+package com.third.myapplication.ui
 
 import androidx.compose.ui.graphics.Color
 import java.util.Random

@@ -1,4 +1,4 @@
-package com.irregulariti.myapplication.ui.theme
+package com.third.myapplication.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

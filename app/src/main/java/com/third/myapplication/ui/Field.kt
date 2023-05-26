@@ -1,4 +1,4 @@
-package com.irregulariti.myapplication.ui
+package com.third.myapplication.ui
 
 import android.util.ArraySet
 

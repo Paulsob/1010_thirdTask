@@ -1,4 +1,4 @@
-package com.irregulariti.myapplication
+package com.third.myapplication
 
 import org.junit.Test
 

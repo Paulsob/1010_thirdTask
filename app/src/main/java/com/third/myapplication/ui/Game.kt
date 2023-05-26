@@ -1,4 +1,4 @@
-package com.irregulariti.myapplication.ui
+package com.third.myapplication.ui
 
 class Game {
 

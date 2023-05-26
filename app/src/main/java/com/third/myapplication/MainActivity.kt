@@ -1,4 +1,4 @@
-package com.irregulariti.myapplication
+package com.third.myapplication
 
 import android.os.Bundle
 import android.util.Log
@@ -31,8 +31,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.irregulariti.myapplication.ui.Figures
-import com.irregulariti.myapplication.ui.Game
+import com.third.myapplication.ui.Figures
+import com.third.myapplication.ui.Game
 import java.lang.Math.abs
 
 class MainActivity : ComponentActivity() {
