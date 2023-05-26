@@ -31,7 +31,7 @@ class Figures {
         val cornerTwoLeftUp = arrayOf(Pair(0, 0), Pair(0, 1), Pair(1, 1))
         val cornerTwoRightDown = arrayOf(Pair(0, 0), Pair(1, 0), Pair(1, 1))
         val cornerTwoLeftDown = arrayOf(Pair(0, 0), Pair(1, 0), Pair(0, 1))
-        val cornerTwoRightUp = arrayOf(Pair(0, 0), Pair(-1, 1), Pair(0, 1))
+        val cornerTwoRightUp = arrayOf(Pair(0, 1), Pair(1, 1), Pair(1, 0))
         val cornerThreeLeftUp =
             arrayOf(Pair(0, 0), Pair(0, 1), Pair(0, 2), Pair(1, 2), Pair(2, 2))
         val cornerThreeRightDown =
@@ -39,7 +39,7 @@ class Figures {
         val cornerThreeLeftDown =
             arrayOf(Pair(0, 0), Pair(1, 0), Pair(2, 0), Pair(0, 1), Pair(0, 2))
         val cornerThreeRightUp =
-            arrayOf(Pair(0, 0), Pair(0, 1), Pair(0, 2), Pair(-1, 2), Pair(-2, 2))
+            arrayOf(Pair(2, 0), Pair(2, 1), Pair(2, 2), Pair(1, 2), Pair(0, 2))
         val arrayOfFigures = arrayOf(
             point,
             squareTwo,

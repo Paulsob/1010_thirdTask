@@ -74,21 +74,9 @@ class MainActivity : ComponentActivity() {
                                 Row(modifier = Modifier) {
                                     for (j in 0..2) {
                                         var color = Color.White
-                                        if (figure.n != 10 && figure.n != 14) {
-                                            val coord = Pair(j, abs(k - 2))
-                                            if (coord in figure.form) {
-                                                color = figure.color
-                                            }
-                                        } else if (figure.n == 14) {
-                                            val coord = Pair(j, abs(k - 2))
-                                            if (coord in figure.form) {
-                                                color = figure.color
-                                            }
-                                        } else {
-                                            val coord = Pair(abs(k - 2), abs(j - 1))
-                                            if (coord in figure.form) {
-                                                color = figure.color
-                                            }
+                                        val coord = Pair(j, abs(k - 2))
+                                        if (coord in figure.form) {
+                                            color = figure.color
                                         }
                                         TextField(
                                             value = "1",
@@ -216,34 +204,5 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun DefaultPreview() {
-        Row(
-            horizontalArrangement = Arrangement.SpaceEvenly,
-            modifier = Modifier
-                .fillMaxWidth()
-        ) {
-            for (i in 1..3) {
-                Box(
-                    modifier = Modifier
-                        .width(90.dp)
-                        .height(270.dp)
-                ) {
-                    Column(modifier = Modifier) {
-                        for (k in 1..3) {
-                            Row(modifier = Modifier) {
-                                for (j in 1..3) {
-                                    TextField(
-                                        value = "1", onValueChange = {},
-                                        readOnly = true,
-                                        modifier = Modifier
-                                            .width(30.dp)
-                                            .height(30.dp)
-                                    )
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
     }
 }
